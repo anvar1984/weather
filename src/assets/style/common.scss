@@ -1,0 +1,49 @@
+:root {
+    --body: #fff;
+    --color: #000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--body);
+    color: var(--color);
+    font-family: 'Montserrat';
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.container {
+    max-width: 1224px;
+    width: 100%;
+    padding: 0 12px;
+    margin: 0 auto;
+}
+
+button, input, textarea {
+    background: none;
+    border: none;
+    outline: none;
+    font-family: inherit;
+    font-size: inherit;
+    cursor: pointer;
+    color: inherit;
+}
+
+.loading {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
